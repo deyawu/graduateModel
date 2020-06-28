@@ -1,0 +1,2 @@
+其中Job.sh为主文件，它会调用ruleModel.sh文件；ruleModel.sh执行参数调优功能，它会调用资源采样脚本getSample.sh和资源监测脚本getResource.sh。
+cpu_snapshot.txt存放集群资源的快照信息，resource.txt存放三项资源的统计信息
